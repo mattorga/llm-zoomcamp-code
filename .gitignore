@@ -6,7 +6,15 @@ dist/
 wheels/
 *.egg-info
 
+# Jupyter-generated files
+.ipynb_checkpoints
+
+# Claude-generated files
+.claude
+.agents
+skills-lock.json
+
 # Virtual environments
 .venv
 .env
-.ipynb_checkpoints
+.vscode
